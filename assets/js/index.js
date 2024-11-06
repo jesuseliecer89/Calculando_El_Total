@@ -16,25 +16,26 @@ precioSpan.innerHTML = precio
 
 incrementar.onclick = function(){
 
+
+
     cantidad.innerHTML = `${++valorCantidad}`
 
     total.innerHTML = `${valorCantidad * precio}`
 
+
+
+   
+
 }
 
 
-decrementar.onclick = function(){
-
-    if(valorCantidad >= 0){
-        cantidad.innerHTML = `${valorCantidad--}`
-        
+decrementar.onclick = function() {
+    if (valorCantidad > 0) {  
+        valorCantidad--;  
+        cantidad.innerHTML = valorCantidad;  
+        total.innerHTML = valorCantidad * precio;  
     }
-
-    if(valorCantidad >= 0 ){
-        total.innerHTML = `${valorCantidad * precio}`
-    }
-    
-}
+};
 
 
 
