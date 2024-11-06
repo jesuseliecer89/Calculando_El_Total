@@ -3,5 +3,5 @@ Desafio JavaScript: Calculando el total
 
 Trabajo realizado por:
 
-Gerardo Melendez Ponce
+Gerardo Melendez Ponce <br>
 Jesus Eliecer Zuñiga Meneses
